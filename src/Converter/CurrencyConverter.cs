@@ -16,6 +16,7 @@ public class CurrencyConverter : ICurrencyConverter
     {
         lock (PadLock)
         {
+            Currency.Clear();
             CurrencyMatrix.Clear();
         }
     }
